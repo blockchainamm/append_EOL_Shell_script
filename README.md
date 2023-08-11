@@ -4,7 +4,7 @@ This shell script permits the user to append characters at End Of Line (EOL) of 
 
 The script first check if the file is present in the current working directory, if this file is present 
   - The character(s) given in the value variable is appended to the end of line
-  - The append operation is done only for the lines satisfying the condition
+  - The append operation is done only for the lines satisfying the condition directly in the given input file
     For example in the given script if the line ends with a number (condition g/[0-9]/) value a character of \ is appended to the End Of Line
     Note that for appending a single \, two \\ values should be assigned to the value variable
 
